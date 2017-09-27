@@ -38,6 +38,17 @@
                 </configuration>
             </plugin>
         </plugins>
+             
+               <plugin> 
+      <artifactId>maven-war-plugin</artifactId> 
+        <configuration> 
+        <version>3.0 </version> 
+        <!-- maven的web项目默认的webroot是在src\main\webapp。如果在此目录下找不到web.xml就抛出webxml attribute is required的异常 -->
+        <!-- 需要在pom.xml中增加<webXml>配置 -->
+        <!-- <webXml>WebContent\WEB-INF\web.xml</webXml> -->
+        </configuration> 
+       </plugin>
+             
     </build>
 
     <dependencies>
