@@ -5,7 +5,7 @@
     <groupId>org.apdplat.search</groupId>
     <artifactId>search</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>search</name>
     <url>http://apdplat.org</url>
